@@ -1,0 +1,121 @@
+<body>
+    
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <h1 style="color:rgb(89, 135, 174)">HotelJAAN</h1>
+        <div class="d-flex">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Booking Room</button>
+    
+        </div>
+    </div>
+    </nav>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Available Total Rooms</th>
+          <th scope="col">Available Rooms</th>
+          <th scope="col">Occupied Rooms</th>
+          
+          <th scope="col">Action</th>
+        </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <td>500</td>
+          <td>200</td>
+          <td>300</td>
+          
+          <td>
+            <button class="btn btn-info">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+      <!-- <tbody>
+        <tr>
+          <td>00002</td>
+          <td>siddhu</td>
+          <td>Kumar</td>
+          <td>siddhu3110@gmail.com</td>
+          <td>0123456789</td>
+          <td>500000</td>
+          <td>10.05.21</td>
+          <td>
+            <button class="btn btn-info">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+    
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>00003</td>
+          <td>Ravi</td>
+          <td>Kumar</td>
+          <td>ravi052@gmail.com</td>
+          <td>0123456789</td>
+          <td>500000</td>
+          <td>26.04.22</td>
+          <td>
+            <button class="btn btn-info">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Booking Room</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form [formGroup]=" formValue">
+              <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input type="text" formControlName="booking" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Available Total Rooms">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Available Rooms</label>
+                <input type="text" formControlName="Available Rooms" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Available Rooms">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Occupied Rooms</label>
+                <input type="text" formControlName="Occupied Rooms" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Occupied Rooms">
+              </div>
+              <!-- <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="text" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mobile no</label>
+                <input type="text" formControlName="mobile" class="form-control" id="exampleInputPassword1" placeholder="Mobile no">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Salary</label>
+                <input type="text" formControlName="salary" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Salary">
+              </div> -->
+              <!-- <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Add</button> -->
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </body> -->

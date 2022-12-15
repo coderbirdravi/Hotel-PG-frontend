@@ -1,0 +1,27 @@
+.d-flex{
+    margin-left: 10vw;
+}
+.Box{
+    /* background-image: ('../assets/hotellmages/pexels-pixabay-258154.jpg'); */
+    /* background-image: url('../assets/Images/pexels-pixabay-258154.jpg'); */
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2050px;
+    height: 1000px;    
+}
+.collapse{
+    color: brown;
+} 
+/* .d-flex{
+    margin-left: 12vw;
+}
+.Box{
+    background-image: url('../assets/hotellmages/pexels-pixabay-258154.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2050px;
+    height: 1000px;
+}*/
